@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+    grid-template-rows: 50px 100px 200px; /* we are explicitly stating how big they must be rows that are explicitly */
+     grid-auto-rows: 500px;  /* but sometimes columns are rows are created automatically these are implicit rows and columns */
+    grid-template-columns: 300px 500px;
+    grid-auto-columns: 120px;
+}
+
+.grid-item {
+    background: #B823C1;
+    color: white;
+    padding: 1em 2em;
+    border: 2px solid purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big {
+    padding: 3em 2em;
+    background: #FF5670;
+    grid-column: 4/5;
+}

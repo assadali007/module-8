@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.grid-item {
+    background: #B823C1;
+    color: white;
+    padding: 1em 2em;
+    border: 2px solid purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big {
+    padding: 3em 2em;
+    background: #FF5670;
+}
